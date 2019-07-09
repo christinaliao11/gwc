@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>my website </title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: rgb(151, 205, 229);
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: rgb(151, 205, 229);
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(66, 28, 28);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: rgb(151, 205, 229);
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color:white;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Christina's Boring Life</h1>
+  <p>Welcome and I hope you don't fall asleep! </p>
+</div>
+
+<div class="topnav">
+  <a href="https://www.instagram.com/christinaliaoo/"> link to my instagram</a>
+  
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Sports!</h2>
+      <h5>Born: September 14, 2003</h5>
+      <img src="team.jpg" style= "width:17em; height:20em;"> 
+      <img src="szn.jpg" style= "width:24em; height:20em;"> 
+      <p>I love to play basketball and run track. Our basketball team is currently sponsored by Adidas and its really cool because we get a bunch of free stuff. I hold the school record for 100m AHA. okay that's irrelevant. Anyways, I love my team to death. Oh ya i've been playing basketabll since I was in 1 grade. I sometimes get sick of it, but then I like it again. It's like a love-hate relationship.</p>
+      <p></p>
+    </div>
+    <div class="card">
+      <h2>Friends!</h2>
+      <h5>These are some of my closest friends.</h5>
+      <img src="uglies.jpg" style= "width:24em; height:20em;"> 
+      <img src="d35w.jpg" style= "width:16em; height:20em;"> 
+      <p>I have known all of them since 2nd grade and we are still the best of friends till this day.</p>
+      <p>They all go to Wilson which is the rival of my school. It's really funny because we alwasy fight over who's school is better, but it's definitely mine right? Obviously. AHAHA. I love them!</p>
+      <img src="friend.JPG" style= "width:14em; height:14em;">
+      This is Jaclyn and we are basically sisters.
+      <p>Recently, I went on a cruise with her to Mexico. We have travelled the world together. We' ha've been to Taiwan, Hawaii, Malibu, Mammoth mountain, Las Vegas and many other places together. She is a year younger than me but is taller than which I hate. She's so pretty like its not fair. </p>
+    
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>ME!</h2>
+      <img src="friend.JPG" style= "width:14em; height:14em;"> 
+      <p>This is me and my friend. My hobbies are listening to music, sleeping, and eating.I am 15 and an incoming junior. I enjoy athletics and hanging out with friends.</p>
+    </div>
+    <div class="card">
+      <h2>Favorite food</h2>
+      RAMENNNNNNNNN
+     
+    </div>
+    <div class="card">
+      <h2>Favorite drink store</h2>
+      <p> Philz Coffee and Starbucks</p>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
